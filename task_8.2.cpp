@@ -10,8 +10,6 @@
 #include "Parallelogram.h"
 #include "Rhomb.h"
 #include "ShapeException.h"
-#include "ShapeTemplate.h"
-#include <vector>
 #include <Windows.h>
 
 
@@ -19,29 +17,6 @@ int main()
 {
     SetConsoleCP(CP_UTF8);
     SetConsoleOutputCP(CP_UTF8);
-
-    /*
-    try
-    {
-        Triangle t(10, 20, 30, 60, 60, 60, "Треугольник");
-        t.PrintInfo();
-        RightTriangle rt(10, 20, 30, 30, 60, 90, "Прямоугольный треугольник");
-        IsoscelesTriangle it(0, 20, 10, 50, 80, 50, "Равнобедренный треугольник");
-        EquilateralTriangle et(30, 30, 30, 60, 60, 60, "Равносторонний треугольник");
-
-        
-        quadr::Quadrilateral q(10, 20, 30, 40, 70, 80, 90, 120);
-        quadr::Rectangle r(10, 20, 10, 20, 90, 90, 90, 90);
-        quadr::Square s(20, 20, 20, 20, 90, 90, 90, 90);
-        quadr::Parallelogram p(20, 30, 20, 30, 30, 40, 30, 40);
-        quadr::Rhomb rh(30, 30, 30, 30, 30, 40, 30, 40);
-        
-    }
-    catch (ShapeException exp)
-    {
-        std::cerr << exp.what() << std::endl;
-    }
-    */
 
     try
     {
